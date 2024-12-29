@@ -383,32 +383,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02",
-    owner: "google",
-    apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
-    name: "DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16",
-    owner: "google",
-    apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
     name: "DiagMon",
     owner: "google",
     apk: "proprietary/product/priv-app/DiagMon/DiagMon.apk",
@@ -888,7 +862,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "audio_tunnel_aoc",
-                "libaudio_aidl_conversion_common_ndk",
                 "libutils_binder",
                 "libc++",
                 "libc",
@@ -1330,7 +1303,6 @@ cc_prebuilt_library_shared {
                 "libtinyalsav2",
                 "libfmq",
                 "libbinder_ndk",
-                "libbluetooth_audio_session_aidl",
                 "libc++",
                 "libc",
                 "libm",
